@@ -7,5 +7,5 @@ gem 'mysql'
 gem 'rake','0.8.7'
 gem 'rush','0.6.8'
 gem 'ruby-debug'
-gem 'thin'
+#gem 'thin'
 

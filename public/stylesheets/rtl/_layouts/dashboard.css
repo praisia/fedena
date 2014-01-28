@@ -10,7 +10,8 @@ body {
 }
 #header_bg {
     height : 80px;
-    background : #b00 url(../../../images/application/pattern_fedena_header.png) repeat;
+    background-color: #a372a1;
+    /*background : #b00 url(../../../images/application/pattern_fedena_header.png) repeat;*/
 }
 #header {
     width : 980px;

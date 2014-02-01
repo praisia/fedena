@@ -1,5 +1,5 @@
 FEDENA_DEFAULTS = {
-  :company_name => 'Praisia',
+  :company_name => 'Home',
   :company_url  => 'http://praisia.com/'
 }
 

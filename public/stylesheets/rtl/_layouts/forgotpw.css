@@ -112,7 +112,9 @@ input[type="text"], input[type="password"], textarea, select {outline: none;}*/
     margin-top : -33px; */
     height : 66px;
     clear : both;
-    background: url(/images/foot.png) repeat-x;
+    background: url(/images/login/form_bg.jpg) repeat-x;
+    background-size: 100% 55px;
+    background-position: 10px 0px;
     width:100%;
 }
 #footer_logo {
@@ -138,7 +140,7 @@ input[type="text"], input[type="password"], textarea, select {outline: none;}*/
 
 #powered_by {
     height:20px;
-    padding:35px 0 0 0;
+    padding:20px 0 0 0;
     width:980px;
     margin:0 auto;
     color:#fff;

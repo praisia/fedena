@@ -54,7 +54,7 @@ body {
 }
 #main-menu li a {
     background : #fff;
-    color : #b00;
+    color : #000;
     display : block;
     font-size : 0.8em;
     float : left;
@@ -80,7 +80,7 @@ body {
     border-bottom-width : 0;
     font: normal 0.9em Arial;
     line-height: 18px;
-    background: #b00 url(../../images/application/app_layout_header_bg.jpg) repeat;
+    background: #fff url(/images/login/form_bg.jpg) repeat;
 }
 #main-menu li:hover ul.level-1{
     visibility: visible;
@@ -124,7 +124,7 @@ body {
     border-bottom-width : 0;
     font: normal 0.9em Arial;
     line-height: 18px;
-    background: #b00 url(../../images/application/app_layout_header_bg.jpg) repeat;
+    background: #fff url(/images/login/form_bg.jpg) repeat;
 }
 #main-menu li ul.level-1 li:hover ul.level-2{
     visibility: visible;
@@ -189,7 +189,10 @@ p.flash-msg {
 
 #footer {
     height:33px;
-    background:#b00 url(../../images/application/app_layout_footer_bg.jpg) repeat;
+    /*background:#b00 url(../../images/application/app_layout_footer_bg.jpg) repeat;*/
+    background: url(/images/login/form_bg.jpg) repeat-x;
+    background-size: 100% 55px;
+    background-position: 10px 0px;    
 }
 #footer #footer_links {
     height:33px;width:614px;
@@ -536,8 +539,10 @@ body > #content_wrapper {
     margin-top :15px;
     height : 66px;
     clear : both;
-    background: url(/images/foot.png) repeat-x;
-    width:100%;
+    background: url(/images/login/form_bg.jpg) repeat-x;
+    background-size: 100% 55px;
+    background-position: 10px 0px;
+   width:100%;
 }
 #footer_logo {
     height:66px;
